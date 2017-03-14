@@ -5,8 +5,8 @@
 %global enable_tests 0
 
 Name:		%{?scl_prefix}nodejs-request
-Version:    2.72.0
-Release:    1%{?dist}
+Version:        2.75.0
+Release:        1%{?dist}
 Summary:	Simplified HTTP request client
 License:	ASL 2.0
 URL:		https://github.com/request/request
@@ -51,6 +51,9 @@ node tests/run.js
 %license LICENSE
 
 %changelog
+* Thu Jan 05 2017 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.75.0-1
+- Updated with script
+
 * Thu Sep 15 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.72.0-1
 - Updated with script
 
